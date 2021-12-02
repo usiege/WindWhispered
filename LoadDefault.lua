@@ -21,6 +21,7 @@ local joinChannelFunc = function(channel)
     end
 end
 
+--[[
 -- load to join dajiao world channel
 joinChannelFunc("大脚世界频道")
 -- load to join 163 world channel
@@ -28,3 +29,5 @@ joinChannelFunc("有爱世界频道")
 
 -- load to join chat channel tfqn
 joinChannelFunc("听风轻咛")
+
+--]]

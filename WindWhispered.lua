@@ -1,4 +1,8 @@
--- THIS IS wind-whipered 's area.
+-- -- THIS IS wind-whipered 's area.
+
+DEFAULT_CHAT_FRAME:AddMessage(...)
+DEFAULT_CHAT_FRAME:AddMessage("欢迎关注微信公众号【听风轻咛】，更多插件信息。。。");
+
 
 -- /script talk(1, 5, "内容")
 function talk(channel, time_pad, msg)
@@ -21,7 +25,7 @@ function talk(channel, time_pad, msg)
     F:SetScript("OnUpdate",TALK)
 end
 
-_G.SLASH_WW1 = "/ww"
+_G.SLASH_WW1 = "/www"
 _G.SlashCmdList.WW = function()
-    print("听风的插件修改库，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。我在听风，也在等你。")
+    DEFAULT_CHAT_FRAME:AddMessage("听风的插件修改库，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。我在听风，也在等你。")
 end
