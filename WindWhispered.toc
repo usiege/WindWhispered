@@ -4,7 +4,7 @@
 ## Title-zhCN: |cff00FA9A[听风]|r WindWhispered
 
 ## Author: 公众号【听风轻咛】
-## Notes: 听风的插件修改库，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。
+## Notes: 听风的插件工具包，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。
 
 ## Version: 0.0.20211202
 
@@ -12,11 +12,17 @@
 
 ## LoadOnDemand: 0
 ## DefaultState: enabled
-# X-LoadOn-Slash: /ww
+# X-LoadOn-Slash: /w
 
 
--- load 
-LoadDefault.lua
+init.lua
 
--- core
+# load localization
+Locales\Locales.xml
+
+# load Basic
+Basic\Default.lua
+Basic\Function.lua
+
+# core
 WindWhispered.lua
