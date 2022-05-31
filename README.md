@@ -2,6 +2,8 @@
 
 听风的插件工具包，解决各插件游戏版本差异、添加基础小工具等。
 
+- [Curseforge发布](https://www.curseforge.com/wow/addons/wind-whispered)
+
 ## 文档
 
 
