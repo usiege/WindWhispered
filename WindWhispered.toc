@@ -1,12 +1,12 @@
-## Interface: 20300
+## Interface: 30400
 
 ## Title: WindWhispered
 ## Title-zhCN: |cff00FA9A[听风]|r WindWhispered
 
-## Author: 公众号【听风轻咛】
+## Author: 公众号【WowCube】
 ## Notes: 听风的插件工具包，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。
 
-## Version: 0.0.20211202
+## Version: 0.0.1.20231109
 
 ## Description: https://github.com/usiege/WindWhispered 我在听风，也在等你。——【听风轻咛】
 
