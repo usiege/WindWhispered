@@ -4,16 +4,17 @@
 ## Title-zhCN: |cff00FA9A[听风]|r WindWhispered
 
 ## Author: 公众号【WowCube】
-## Notes: 听风的插件工具包，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【听风轻咛】，到后台留言遇到的问题，或加小编微信描述。
+## Notes: 听风的插件工具包，解决各插件版本问题，加载我即可解决。使用插件时遇到任何问题，关注微信公众号【WowCube】，到后台留言遇到的问题，或加小编微信描述。
 
-## Version: 0.0.1.20231109
+## Version: 0.1.1
+## Date: 2023.12.11
 
-## Description: https://github.com/usiege/WindWhispered 我在听风，也在等你。——【听风轻咛】
-
+## Description: 我在听风，也在等你。
 ## LoadOnDemand: 0
 ## DefaultState: enabled
-# X-LoadOn-Slash: /w
-
+## X-LoadOn-Slash: /w
+## X-Website: https://www.curseforge.com/wow/addons/winda
+## X-Documents: https://github.com/usiege/WindWhispered
 
 init.lua
 

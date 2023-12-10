@@ -6,9 +6,13 @@ local B, C, L, DB = unpack(ns)
 
 -- tf's slash
 _G.SLASH_WW1 = "/w"
-_G.SlashCmdList.WW = function()
+_G.SlashCmdList.WW = function(msg)
     DEFAULT_CHAT_FRAME:AddMessage(L["SlashWMessage"])
+    if msg == "help" then
+        print()
+    end
 end
+
 
 
 -- ndui basic control panel
